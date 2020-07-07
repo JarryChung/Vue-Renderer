@@ -5,17 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vue Renderer</title>
   <style>
-    .cls-cool {
+    .cls-a {
+      border: 5px solid seagreen;
+    }
+    .cls-b {
+      background-color: slategray;
+    }
+    #old-portal {
       border: 2px solid yellow;
+      width: 500px;
+      height: 20px;
+    }
+    #new-portal {
+      border: 2px solid blueviolet;
+      width: 500px;
+      height: 20px;
     }
   </style>
 </head>
 <body>
   <div id="app"></div>
-  <div id="portal">
-    <p>Jarry Chung</p>
-  </div>
-
   <div id="old-portal"></div>
   <div id="new-portal"></div>
 	<script src="src/index.js"></script>
